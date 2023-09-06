@@ -1,0 +1,21 @@
+name: Hello World
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    name: Hello World
+    steps:
+      - name: Hello World
+        run: echo "Hello World"
+  hello-world2:
+    runs-on: ubuntu-latest
+    name: Hello World 2
+    steps:
+      - name: Hello World 2
+        run: echo "hello world"
+  
